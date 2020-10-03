@@ -44,3 +44,6 @@ from uxapi.exchanges.binance import (
 from uxapi.exchanges.deribit import (
     Deribit
 )
+from uxapi.exchanges.ftx import (
+    Ftx
+)

@@ -552,6 +552,44 @@ okex.option.myorder:
     market_type: option
     datatype: myorder
     extrainfo: BTC
+    
+################
+# FTX Spot
+################
+
+ftx.spot.orderbook:
+    exchange_id: ftx
+    market_type: spot
+    datatype: orderbook
+    extrainfo: BTC/USDT
+    
+ftx.spot.ticker:
+    exchange_id: ftx
+    market_type: spot
+    datatype: ticker
+    extrainfo: BTC/USDT
+    
+ftx.spot.trades:
+    exchange_id: ftx
+    market_type: spot
+    datatype: trades
+    extrainfo: BTC/USDT
+    
+ftx.spot.myorder:
+    exchange_id: ftx
+    market_type: spot
+    datatype: myorder
+    
+ftx.spot.fills:
+    exchange_id: ftx
+    market_type: spot
+    datatype: fills
+    
+ftx.futures.orderbook:
+    exchange_id: ftx
+    market_type: futures
+    datatype: orderbook
+    extrainfo: BTC/USD.CQ
 """
 
 
